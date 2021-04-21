@@ -22,3 +22,5 @@ jobs:
         run: npm run build --if-present
       - name: test
         run: 'npm run test:ci'
+      - name: chrome
+        run: chromedriver --version
